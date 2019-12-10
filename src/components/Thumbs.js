@@ -8,7 +8,6 @@ class Thumbs extends Component {
     }
 
     onImageSelect(event) {
-        console.log(event.target.id)
         if (event.target.id) this.props.selectedCatalog(event.target.id)
     }
 
